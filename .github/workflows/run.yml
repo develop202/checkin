@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: 13 8 * * * Asia/Shanghai
+    - cron: 0/1 * * * *
 
 jobs:
   run:
